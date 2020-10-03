@@ -1,0 +1,36 @@
+/* task-03 */
+#gallery {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+  width: 33%;
+}
+
+img {
+  width: 320px;
+  height: 180px;
+}
+
+/* decoration a {
+  display: block;
+  margin: 10px;
+  font-size: 20px;
+} */
+
+/* task-06 */
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
