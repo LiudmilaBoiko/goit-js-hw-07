@@ -15,8 +15,6 @@ const elements = ingredients.map((ingredient) => {
   return itemEl;
 });
 
-// console.log(elements);
-
 const listEl = document.querySelector("ul");
 listEl.append(...elements);
 
