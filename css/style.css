@@ -19,7 +19,7 @@ li:not(:last-child) {
 img {
   display: block;
   width: 100%;
-  height: 180px;
+  height: auto;
 }
 
 /* task-06 */
